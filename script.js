@@ -1,5 +1,5 @@
 //Question 01
-/*
+
 function createAdder(num) {
     return function(x) {
       return num + x;
@@ -86,7 +86,6 @@ function getObjectFromLocalStorage(key) {
     // Return the object
     return object;
   }
-*/
 
 var myObject = { name: "Hassan", age: 24 };
 var retrievedObject = saveObjectPropertiesToLocalStorage(myObject);
